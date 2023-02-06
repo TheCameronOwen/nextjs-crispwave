@@ -20,8 +20,8 @@ export default function Home() {
             <h1>Crisp Waves</h1>
             <div>
               {FEEDS.map((feed) => (
-                <Link key={feed.slug} href={`/feeds/${feed.slug}`}>
-                  {feed.title}
+                <Link className="cta-action" key={feed.slug} href={`/feeds/${feed.slug}`}>
+                  Read More about {feed.title}
                 </Link>
               ))}
             </div>

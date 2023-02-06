@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  display: block;
+  margin-bottom: 20px;;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+}
+
+.description p:last-of-type {
+  border-bottom: 2px dashed #111111;
+  width: 50%;
+  margin: 0 auto 30px;
+}

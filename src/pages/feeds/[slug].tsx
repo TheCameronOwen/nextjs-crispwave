@@ -1,5 +1,6 @@
-import { FEEDS, getFeed } from '../api/rss';
 import { format } from 'date-fns';
+import { FEEDS, getFeed } from '../api/rss';
+import styles from '@/styles/Recipes.module.css';
 
 export async function getStaticPaths() {
   return {
@@ -26,24 +27,24 @@ export async function getStaticProps({ params }: any) {
 
 export default function Feed({ feed, items }: any) {
   return (
-    <div>
-      <h1>{feed.title}</h1>
+    <main className={styles.main}>
         <div>
-          <div>
-            {items.map((item: any, index: number) => (
-                <a
-                  key={index}
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <h3>{item.title}</h3>
-                  <div dangerouslySetInnerHTML={{ __html: item.content }} />
-                  <div>{format(new Date(item.isoDate), "PPP")}</div>
-                </a>
-              ))}
-          </div>
-      </div>
-    </div>
+        <h1>{feed.title}</h1>
+            <div className={styles.description}>
+                {items.map((item: any, index: number) => (
+                    <a
+                    key={index}
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    <h3>{item.title}</h3>
+                    <div dangerouslySetInnerHTML={{ __html: item.content }} />
+                    <div>{format(new Date(item.isoDate), "PPP")}</div>
+                    </a>
+                ))}
+            </div>
+        </div>
+    </main>
   );
 }
