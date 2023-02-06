@@ -5,7 +5,7 @@ A MextJS application, based on the create-app scripts, with an RSS feed listing.
 ## How it started
 <img width="926" alt="chatbot" src="https://user-images.githubusercontent.com/47358142/216994737-0ac6ec37-4319-4423-b73a-8d106de50d0c.png">
 
-##How it went
+## How it went
 
 <img width="509" alt="1" src="https://user-images.githubusercontent.com/47358142/216995129-a5f27bc9-ed71-4ea3-a8ae-408cac05ca4b.png">
 
