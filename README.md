@@ -1,7 +1,14 @@
 # Crisp Waves
 
+How it started
 <img width="926" alt="chatbot" src="https://user-images.githubusercontent.com/47358142/216994737-0ac6ec37-4319-4423-b73a-8d106de50d0c.png">
 
+How it went
+<img width="509" alt="1" src="https://user-images.githubusercontent.com/47358142/216995129-a5f27bc9-ed71-4ea3-a8ae-408cac05ca4b.png">
+
+
+
+<img width="930" alt="2" src="https://user-images.githubusercontent.com/47358142/216995124-a1c2a146-f7df-4ce3-89f5-80c5e023899c.png">
 
 
 ## Getting Started
