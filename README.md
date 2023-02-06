@@ -1,5 +1,9 @@
 # Crisp Waves
 
+<img width="926" alt="chatbot" src="https://user-images.githubusercontent.com/47358142/216994737-0ac6ec37-4319-4423-b73a-8d106de50d0c.png">
+
+
+
 ## Getting Started
 
 First, run the development server:
